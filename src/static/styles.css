@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  border-spacing: 0;
+  cursor: pointer;
+}
+a:hover,
+button:hover {
+  text-decoration: underline;
+}
+button:focus {
+  background: rgb(240, 240, 240);
+  outline: none;
+}
+.examBtn,
+.studentBtn {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-top: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  border: 1px solid black;
+  padding: 20px;
+}
+.body-container {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+}
+.body-container .sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+}
+.body-container .sidebar .button-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.body-container .body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+  height: 100%;
+  overflow: auto;
+}
+.pgHeader {
+  border: none;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 10px 10px 10px;
+}
+.pgHeader2 {
+  border: none;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0 10px 10px 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+.btnCircle {
+  height: 25px;
+  width: 25px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  display: inline-block;
+}
