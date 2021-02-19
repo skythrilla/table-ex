@@ -1,7 +1,6 @@
 const mainTable = document.querySelector('.mainTable');
 const examBtn = document.querySelector('.examBtn');
 const studentBtn = document.querySelector('.studentBtn');
-const trheader = document.querySelector('.trheader');
 const domain = 'http://localhost:4000/api/v1/';
 
 getStudents();
